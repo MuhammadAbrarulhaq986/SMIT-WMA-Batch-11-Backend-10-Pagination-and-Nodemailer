@@ -9,8 +9,8 @@ const transporter = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: "stanley.toy28@ethereal.email",
-        pass: "DfZRQs3rgNUDQY9Mr2",
+        user: "emmitt.krajcik6@ethereal.email",
+        pass: "G8yukXJpkuqwKjXxuj",
     },
 });
 
@@ -80,7 +80,7 @@ const sendEmail = async (req, res) => {
     //* Send email using the transporter configuration
     const info = await transporter.sendMail({
         //* Sender's email and display name
-        from: '"Stanley Toy 👻" <stanley.toy28@ethereal.email>',
+        from: '"Emmitt Krajcik 👻" <emmitt.krajcik6@ethereal.email>',
 
         //* Recipient's email address
         to: "ulhaqabrar106@gmail.com",
